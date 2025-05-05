@@ -2,7 +2,7 @@
 // Arquivo: GuessingGame.c
 // Autor: John Pascoal
 // Criado em: 2025-05-04 às 22:16:29
-// Actualizado em: 2025-05-05 às 00:27:48
+// Actualizado em: 2025-05-05 às 02:18:20
 // -----------------------------------------------------------------------------
 
 #include <stdio.h>
@@ -23,13 +23,21 @@ int	main(void)
 {
 	int	secretNumber;
 	int	guess;
+	int	check_type;
 
 	secretNumber = rand_secret_number();
 
 	printf("Guess the correct number between %d and %d!\n", MIN, MAX);
 	do {
 		printf("Enter a number: ");
-		scanf("%d", &guess);
+		check_type = scanf("%d", &guess);
+
+		if (check_type != 1)
+		{
+			printf("Put numbers between %d and %d\n", MIN, MAX);
+			while (getchar() != '\n');
+            		guess = -1; 
+		}
 	} while (guess != secretNumber);
 	
 	printf("You won, the correct number is %d!", secretNumber);
