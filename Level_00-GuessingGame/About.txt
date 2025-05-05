@@ -1,0 +1,1 @@
+The Guessing game is a simple program that generates a random number and the user tries to guess.
