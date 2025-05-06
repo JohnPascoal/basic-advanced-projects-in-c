@@ -1,4 +1,4 @@
-# basic-advanced-projects-in-c
+# Projectos em c do básico-avançado
 
 Este repositório contém uma coleção de projetos em linguagem C, que vão desde o nível básico até conceitos mais avançados.
 
