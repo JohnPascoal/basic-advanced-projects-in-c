@@ -11,7 +11,7 @@ O objetivo deste repositório é fornecer exemplos práticos e didáticos de pro
 Os projetos estão organizados por níveis de dificuldade, onde `Level_0` representa os projetos mais básicos e `Level_10` os mais avançados.
 
 -   `Level_0/`: Projetos de nível iniciante.
--   `Level_55555/`: Projetos com um pouco mais de complexidade.
+-   `Level_5/`: Projetos com um pouco mais de complexidade.
 -   ...
 -   `Level_10/`: Projetos que exploram conceitos avançados em C.
 
