@@ -1,0 +1,18 @@
+A C program that receives a number and tells its characteristics.
+
+Signal:
+	Positive (greater than zero)
+	Negative (less than zero)
+	Zero
+
+Parity:
+	Even (divisible by 2)
+	Odd (not divisible by 2)
+
+Magnitude:
+	Integer
+	Decimal (or floating point)
+
+Divisibility:
+	Prime (divisible only by 1 and itself)
+	Composite (divisible by numbers other than 1 and itself)
