@@ -1,6 +1,10 @@
 Jogo da Forca em C
 
-Este projeto implementa o clássico jogo da forca. O programa seleciona aleatoriamente uma palavra secreta de uma lista armazenada em um arquivo. O jogador tenta adivinhar as letras da palavra secreta, tendo um número limitado de tentativas. A cada tentativa incorreta, uma parte da "forca" é desenhada. O objetivo é adivinhar a palavra completa antes que a forca seja concluída.
+Este projeto implementa o clássico jogo da forca.
+O programa seleciona aleatoriamente uma palavra secreta de uma lista armazenada em um arquivo.
+O jogador tenta adivinhar as letras da palavra secreta, tendo um número limitado de tentativas.
+A cada tentativa incorreta, uma parte da "forca" é desenhada.
+O objetivo é adivinhar a palavra completa antes que a forca seja concluída.
 
 Este projeto demonstra conceitos fundamentais de programação em C, incluindo:
 
